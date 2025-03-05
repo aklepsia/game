@@ -9,7 +9,7 @@ body {
 }
 
 .game-container {
-  position: relative;
+  position: absolute;
   width: 980px;
   height: 630px;
   margin: 0 auto;
