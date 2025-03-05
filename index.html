@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <img src="/images/background.png" alt="Карта" class="game-map" />
+
+      <img src="/images/girl.png" alt="Персонаж" class="character" />
+
+      <div class="bottom-controls">
+        <div class="character-list">
+          <img
+            src="/images/friends_block.png"
+            class="character-bg"
+            alt="Друзья"
+          />
+
+          <button class="slider-btn left">
+            <img src="/images/left.png" alt="Влево" />
+          </button>
+
+          <img src="/images/plus_icon.png" alt="Плюс" class="plus" />
+
+          <div class="avatars-container">
+            <div class="avatars-wrapper"></div>
+          </div>
+
+          <button class="slider-btn right">
+            <img src="/images/right.png" alt="Вправо" />
+          </button>
+        </div>
+
+        <button class="btn-chat">
+          <img src="/images/chat_icon.png" alt="Чат" />
+        </button>
+        <button class="btn-univer">
+          <img src="/images/button_uni.png" alt="В универ" class="img_uni" />
+        </button>
+        <button class="btn-mail">
+          <img src="/images/post_icon.png" alt="Почта" />
+        </button>
+        <button class="btn-rating">
+          <img src="/images/rating_icon.png" alt="Рейтинг" />
+        </button>
+      </div>
+
+      <div class="rating-window-wrapper">
+        <div class="rating-window">
+          <img
+            src="/images/background_rating.png"
+            alt="Рейтинг"
+            class="rating-bg"
+          />
+
+          <div class="rating-header">
+            <img
+              src="/images/h1_rating.png"
+              alt="Заголовок"
+              class="h1-rating-bg"
+            />
+            <h1 class="h1-rating">Рейтинг игроков</h1>
+          </div>
+
+          <button class="close-btn">
+            <img src="/images/close_icon.png" alt="Закрыть" />
+          </button>
+
+          <div class="table-wrapper">
+            <div class="row-wrapper">
+              <img
+                src="/images/h2_rating.png"
+                alt="Заголовок таблицы рейтинга"
+                class="h2-rating-bg"
+              />
+              <div class="h2-container">
+                <div class="h2-wrapper">
+                  <h2>Место</h2>
+                  <h2>Имя Фамилия</h2>
+                </div>
+                <h2>Опыт</h2>
+              </div>
+            </div>
+            <div class="rows-wrapper">
+              <img
+                src="/images/row_rating.png"
+                alt="Строка таблицы рейтинга"
+                class="row-rating-bg"
+              />
+              <div class="text-row-wrapper">
+                <div class="text-wrapper">
+                  <h3>1</h3>
+                  <div class="avatar-rating">
+                    <img
+                      src="/images/avatar_rating.png"
+                      alt="Аватар"
+                      class="avatar_rating_mini"
+                    />
+                    <h3>Ваш друг</h3>
+                  </div>
+                </div>
+                <h3>1000</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
