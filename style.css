@@ -142,7 +142,7 @@ body {
 }
 
 .btn-chat:hover img {
-  content: url("/img2/chat_icon_light.png");
+  content: url("img/chat_icon_light.png");
 }
 
 .slider-btn {
@@ -302,7 +302,7 @@ h3 {
   z-index: 3;
   color: white;
   font-size: 12px;
-  background-image: url(/img2/row_rating.png);
+  background-image: url(img/row_rating.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;

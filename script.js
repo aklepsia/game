@@ -6,10 +6,10 @@ avatarsData.forEach((hasAvatar) => {
   const characterItem = document.createElement("div");
   characterItem.classList.add("character-item");
 
-  characterItem.innerHTML = `<img src="/img2/avatar_friends_background.png" class="avatar-bg" />`;
+  characterItem.innerHTML = `<img src="img/avatar_friends_background.png" class="avatar-bg" />`;
 
   if (hasAvatar) {
-    characterItem.innerHTML += `<img src="/img2/avatar_friends.png" class="avatar-icon" />`;
+    characterItem.innerHTML += `<img src="img/avatar_friends.png" class="avatar-icon" />`;
   }
 
   avatarsContainer.appendChild(characterItem);
